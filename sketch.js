@@ -4,7 +4,9 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Constraint = Matter.Constraint;
 
-var diameter;
+var chain1 ,chain2 ,chain3 ,chain4 ,chain5;
+var bob ,bob2 ,bob3,bob4 ,bob5;
+var diameter, roof;
 
 function setup() {
 	createCanvas(1000, 1000);
